@@ -1,6 +1,6 @@
 # GitHub light
 
-[![NPM version](http://img.shields.io/npm/v/github-atom-light-syntax.svg)](https://www.npmjs.org/package/github-atom-light-syntax)
+[![apm downloads](https://img.shields.io/apm/dm/github-atom-light-syntax.svg?maxAge=2592000)](https://atom.io/packages/github-atom-light-syntax)
 
 > GitHub's official light syntax theme as an atom theme
 
