@@ -20,8 +20,9 @@
   },
   "scripts": {
     "_version": "apm publish $(npm view github-syntax-theme-generator version)",
+    "_commit": "git commit -am $(npm view github-syntax-theme-generator version)",
     "_update": "npm update && cp -rf node_modules/github-syntax-theme-generator/build/atom/github-light/styles . && cp node_modules/github-syntax-theme-generator/build/atom/github-light/index.less .",
-    "ship": "npm run _update && npm run _version && git push && git push --tags",
+    "ship": "npm run _update && npm run _commit && npm run _version && git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -34,7 +35,7 @@
     "dark"
   ],
   "devDependencies": {
-    "github-syntax-theme-generator": "^0.1.0"
+    "github-syntax-theme-generator": "*"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
