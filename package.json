@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.2.0",
   "name": "github-atom-light-syntax",
   "theme": "syntax",
   "description": "GitHub's official light syntax theme as an atom theme",
