@@ -35,7 +35,7 @@
     "dark"
   ],
   "devDependencies": {
-    "github-syntax-theme-generator": "^0.2.0"
+    "github-syntax-theme-generator": "^0.3.0"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
