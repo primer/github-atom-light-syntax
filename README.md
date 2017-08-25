@@ -4,7 +4,6 @@
 
 > GitHub's official light syntax theme as an atom theme
 
-![](https://cloud.githubusercontent.com/assets/54012/16179343/c0a78672-3630-11e6-80b1-eb0a0b647225.png)
 
 ## Install
 
